@@ -17,7 +17,7 @@ const App: React.FC = () => {
       <Sidebar />
 
       {/* Main Content */}
-      <main id="main-content" className="relative z-10">
+      <main id="main-content" className="relative z-10 lg:pl-24">
         <Hero />
         <About />
         <Services />
