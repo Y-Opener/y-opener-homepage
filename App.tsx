@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
+
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
@@ -14,10 +14,9 @@ const App: React.FC = () => {
     <div className="relative min-h-screen w-full overflow-x-hidden">
       {/* Navigation */}
       <Navbar />
-      <Sidebar />
 
       {/* Main Content */}
-      <main id="main-content" className="relative z-10 lg:pl-24">
+      <main id="main-content" className="relative z-10">
         <Hero />
         <About />
         <Services />
