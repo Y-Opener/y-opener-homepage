@@ -22,10 +22,13 @@ const Hero: React.FC = () => {
       <div className="relative z-10 w-full pb-12 sm:pb-20 px-6 sm:px-12 pt-32 max-w-[1400px] mx-auto pointer-events-none flex flex-col lg:flex-row justify-between lg:items-end gap-12 lg:gap-0">
         
         {/* Left Info */}
-        <div className="max-w-xs space-y-8 order-2 lg:order-1 pointer-events-auto">
-          <p className="text-lg leading-relaxed text-neutral-400 font-normal font-mono">
-            <span className="text-[#7CFF98] block mb-2">● AI-Native Venture Studio</span>
-            We build future-ready software, accelerate founders, and transform SMEs.
+        <div className="max-w-sm space-y-6 order-2 lg:order-1 pointer-events-auto">
+          <span className="text-sm font-semibold text-[#7CFF98] font-mono uppercase tracking-widest flex items-center gap-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#7CFF98] inline-block"></span>
+            AI Ventures & Consulting
+          </span>
+          <p className="text-base leading-relaxed text-neutral-400 font-normal font-mono">
+            We build AI-native products and consult with research teams and organisations across industries.
           </p>
           <div className="flex flex-col gap-4 items-start">
             <button 

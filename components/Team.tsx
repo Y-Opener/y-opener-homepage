@@ -22,7 +22,7 @@ const Team: React.FC = () => {
               Founder of Refeedo and Y Opener with a PhD in Entrepreneurship & Innovation Strategy. Quinn leads the strategic vision for our ventures, championing gender equality and curiosity. She builds products and enables founders and SMEs to unlock their true potential through AI-native workflows.
             </p>
             <div className="flex gap-4">
-               <a href="#" className="text-neutral-500 hover:text-white transition-colors"><Linkedin size={20} /></a>
+               <a href="https://www.linkedin.com/company/yopener" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors"><Linkedin size={20} /></a>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const Team: React.FC = () => {
               An AI technical leader with a strong research foundation in Data Science and Deep Learning. Melody leads the engineering vision for our ventures, specializing in LLMs and computer vision. She translates complex R&D into deployable products, building the robust, AI-native infrastructure that powers Y Opener’s solutions.
             </p>
             <div className="flex gap-4">
-               <a href="#" className="text-neutral-500 hover:text-white transition-colors"><Linkedin size={20} /></a>
+               <a href="https://www.linkedin.com/company/yopener" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors"><Linkedin size={20} /></a>
             </div>
           </div>
 

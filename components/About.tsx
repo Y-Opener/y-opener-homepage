@@ -36,16 +36,16 @@ const About: React.FC = () => {
             </h2>
             
             <p className="text-2xl leading-relaxed text-neutral-400 mb-12 font-thin max-w-2xl">
-              At Y Opener, we believe that technology helps founders and businesses unlock the "Why" behind their work. Whether we are building our own tools or helping you build yours, we use Artificial Intelligence to clear the path toward that vision.
+              At Y Opener, we believe technology should unlock the "Why" behind your work. We build AI-native products and partner with research teams and organisations to deploy AI where it creates real impact.
             </p>
-            
+
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-8 border-t border-white/10">
               <div className="space-y-3">
                 <h3 className="text-sm font-medium text-white font-mono uppercase tracking-wide opacity-50">Core</h3>
                 <ul className="text-lg text-neutral-400 space-y-2 font-mono">
                   <li className="hover:text-[#7CFF98] transition-colors cursor-default">Venture Building</li>
-                  <li className="hover:text-[#7CFF98] transition-colors cursor-default">Founder Acceleration</li>
-                  <li className="hover:text-[#7CFF98] transition-colors cursor-default">SME Transformation</li>
+                  <li className="hover:text-[#7CFF98] transition-colors cursor-default">AI Consulting</li>
+                  <li className="hover:text-[#7CFF98] transition-colors cursor-default">Cross-Industry Impact</li>
                 </ul>
               </div>
               <div className="space-y-3">

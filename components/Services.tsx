@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppWindow, Rocket, TrendingUp } from 'lucide-react';
+import { AppWindow, TrendingUp } from 'lucide-react';
 
 const Services: React.FC = () => {
   return (
@@ -11,14 +11,14 @@ const Services: React.FC = () => {
               <span className="text-sm font-semibold text-[#7CFF98] uppercase tracking-widest font-mono">Core Pillars</span>
               <div className="h-px w-8 bg-[#7CFF98]/20"></div>
             </div>
-            <h2 className="text-3xl md:text-4xl font-normal tracking-tight text-white">We Build. We Empower. We Transform.</h2>
+            <h2 className="text-3xl md:text-4xl font-normal tracking-tight text-white">We Build. We Transform.</h2>
           </div>
           <p className="text-neutral-500 font-mono text-lg max-w-sm text-right md:text-left">
-            Three distinct approaches to solving complex information problems.
+            Two distinct approaches to solving complex information problems.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Card 1: Venture Studio */}
           <div className="glass-panel p-8 rounded-2xl group hover:bg-white/5 transition-all duration-500 flex flex-col">
             <div className="h-10 w-10 rounded-lg bg-[#7CFF98]/10 flex items-center justify-center text-[#7CFF98] mb-8 group-hover:scale-110 transition-transform duration-300 border border-[#7CFF98]/20">
@@ -39,8 +39,8 @@ const Services: React.FC = () => {
             </a>
           </div>
 
-          {/* Card 2: Pre-Accelerator */}
-          <div className="glass-panel p-8 rounded-2xl group hover:bg-white/5 transition-all duration-500 flex flex-col">
+          {/* Pre-Accelerator card — hidden until program relaunches */}
+          {/* <div className="glass-panel p-8 rounded-2xl group hover:bg-white/5 transition-all duration-500 flex flex-col">
             <div className="h-10 w-10 rounded-lg bg-[#7CFF98]/10 flex items-center justify-center text-[#7CFF98] mb-8 group-hover:scale-110 transition-transform duration-300 border border-[#7CFF98]/20">
               <Rocket className="w-6 h-6" />
             </div>
@@ -55,16 +55,16 @@ const Services: React.FC = () => {
             >
               APPLY FOR NEXT COHORT &rarr;
             </button>
-          </div>
+          </div> */}
 
-          {/* Card 3: Consulting */}
+          {/* Card 3: AI Consulting */}
           <div className="glass-panel p-8 rounded-2xl group hover:bg-white/5 transition-all duration-500 flex flex-col">
             <div className="h-10 w-10 rounded-lg bg-[#7CFF98]/10 flex items-center justify-center text-[#7CFF98] mb-8 group-hover:scale-110 transition-transform duration-300 border border-[#7CFF98]/20">
               <TrendingUp className="w-6 h-6" />
             </div>
-            <h3 className="text-2xl font-normal text-white mb-3">Corporate Consulting</h3>
+            <h3 className="text-2xl font-normal text-white mb-3">AI Consulting</h3>
             <p className="text-lg text-neutral-400 leading-relaxed font-mono mb-6 flex-grow">
-              AI isn't just for tech giants. We consult with SMEs to identify bottlenecks and implement AI solutions that instantly boost productivity.
+              We partner with research labs, academic departments, and businesses across industries to identify workflow bottlenecks and implement AI solutions that drive real productivity gains.
             </p>
             <button
               onClick={() => window.dispatchEvent(new CustomEvent('open-contact-modal', { detail: { type: 'consultation' } }))}

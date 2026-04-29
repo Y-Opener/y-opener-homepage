@@ -36,7 +36,8 @@ const Navbar: React.FC = () => {
         <div className="hidden sm:flex items-center gap-1 p-1 rounded-full glass-panel">
           <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">About</a>
           <a href="#ventures" onClick={(e) => handleScroll(e, 'ventures')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">Ventures</a>
-          <a href="#accelerator" onClick={(e) => handleScroll(e, 'accelerator')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">Accelerator</a>
+          {/* Pre-Accelerator nav link — hidden until program relaunches */}
+          {/* <a href="#accelerator" onClick={(e) => handleScroll(e, 'accelerator')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">Accelerator</a> */}
           <a href="#consulting" onClick={(e) => handleScroll(e, 'consulting')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">Consulting</a>
           <a href="#team" onClick={(e) => handleScroll(e, 'team')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">Team</a>
           <a href="#contact" onClick={(e) => handleScroll(e, 'contact')} className="px-5 py-2.5 text-sm font-normal text-[#0B0F0E] bg-[#7CFF98] hover:bg-[#DFFFE8] transition-colors rounded-full font-medium">Contact</a>
