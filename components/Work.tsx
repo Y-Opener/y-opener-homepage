@@ -39,7 +39,7 @@ const Work: React.FC = () => {
                 <li className="px-2 py-1 bg-white/5 rounded border border-white/5">Research Labs</li>
                 <li className="px-2 py-1 bg-white/5 rounded border border-white/5">Academic Teams</li>
                 <li className="px-2 py-1 bg-white/5 rounded border border-white/5">SMEs</li>
-                <li className="px-2 py-1 bg-white/5 rounded border border-white/5">Workflow Automation</li>
+                <li className="px-2 py-1 bg-white/5 rounded border border-white/5">Super Individuals</li>
               </ul>
               <button
                 onClick={() => window.dispatchEvent(new CustomEvent('open-contact-modal', { detail: { type: 'consultation' } }))}
