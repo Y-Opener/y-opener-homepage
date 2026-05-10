@@ -41,17 +41,11 @@ const Hero: React.FC = () => {
               <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </a>
             <button
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.dispatchEvent(new CustomEvent('open-contact-modal', { detail: { type: 'consultation' } }))}
               className="group flex items-center gap-3 text-sm font-medium tracking-widest uppercase text-white hover:text-[#7CFF98] transition-colors"
             >
-              <span className="border-b border-white/20 group-hover:border-[#7CFF98] pb-1 transition-colors">Partner With Us</span>
+              <span className="border-b border-white/20 group-hover:border-[#7CFF98] pb-1 transition-colors">Book a Consultation</span>
               <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-            </button>
-             <button
-              onClick={() => document.getElementById('ventures')?.scrollIntoView({ behavior: 'smooth' })}
-              className="group flex items-center gap-3 text-sm font-medium tracking-widest uppercase text-neutral-400 hover:text-white transition-colors"
-            >
-              <span className="border-b border-transparent group-hover:border-white pb-1 transition-colors">View Our Products</span>
             </button>
           </div>
         </div>
