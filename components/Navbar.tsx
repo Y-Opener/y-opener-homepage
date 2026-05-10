@@ -40,7 +40,8 @@ const Navbar: React.FC = () => {
           {/* <a href="#accelerator" onClick={(e) => handleScroll(e, 'accelerator')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">Accelerator</a> */}
           <a href="#consulting" onClick={(e) => handleScroll(e, 'consulting')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">Consulting</a>
           <a href="#team" onClick={(e) => handleScroll(e, 'team')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">Team</a>
-          <a href="#contact" onClick={(e) => handleScroll(e, 'contact')} className="px-5 py-2.5 text-sm font-normal text-[#0B0F0E] bg-[#7CFF98] hover:bg-[#DFFFE8] transition-colors rounded-full font-medium">Contact</a>
+          <a href="#contact" onClick={(e) => handleScroll(e, 'contact')} className="px-5 py-2.5 text-sm font-normal text-neutral-400 hover:text-white transition-colors rounded-full hover:bg-white/5">Contact</a>
+          <a href="https://cal.com/yopener/15min" target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 text-sm font-medium text-[#0B0F0E] bg-[#7CFF98] hover:bg-[#DFFFE8] transition-colors rounded-full">Book a Call</a>
         </div>
       </div>
     </nav>
